@@ -1,0 +1,17 @@
+.markdown-table-calculator-example {
+	white-space: pre-wrap;
+	border: 1px solid var(--background-modifier-border);
+	border-radius: 6px;
+	padding: 12px;
+	background: var(--background-secondary);
+}
+
+.markdown-table-calculator-positive {
+	color: var(--text-success, #16803c);
+	font-weight: 600;
+}
+
+.markdown-table-calculator-negative {
+	color: var(--text-error, #c92a2a);
+	font-weight: 600;
+}

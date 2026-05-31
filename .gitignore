@@ -1,0 +1,31 @@
+# Editors
+.vscode/
+.idea/
+*.iml
+
+# Dependencies
+node_modules/
+
+# Build output
+# Release artifacts are uploaded to GitHub Releases instead of committed.
+main.js
+*.map
+dist/
+
+# Local Obsidian plugin data
+data.json
+
+# Local environment and logs
+.env
+.env.*
+*.log
+npm-debug.log*
+
+# Test and coverage output
+coverage/
+
+# Claude Code
+.claude/
+
+# macOS
+.DS_Store
