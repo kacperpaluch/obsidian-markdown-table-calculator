@@ -1,9 +1,9 @@
 {
 	"id": "markdown-table-calculator",
 	"name": "Markdown Table Calculator",
-	"version": "1.0.2",
+	"version": "1.1.0",
 	"minAppVersion": "0.15.0",
-	"description": "Automatically calculates SUM formulas in Markdown tables.",
+	"description": "Automatically calculates SUM, AVERAGE, COUNT, MIN, MAX formulas in Markdown tables.",
 	"author": "Kacper Paluch",
 	"isDesktopOnly": false
 }

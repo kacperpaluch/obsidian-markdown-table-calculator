@@ -1,7 +1,7 @@
 {
 	"name": "markdown-table-calculator",
-	"version": "1.0.2",
-	"description": "Automatically calculates SUM formulas in Markdown tables for Obsidian.",
+	"version": "1.1.0",
+	"description": "Automatically calculates SUM, AVERAGE, COUNT, MIN, MAX formulas in Markdown tables for Obsidian.",
 	"main": "main.js",
 	"type": "module",
 	"scripts": {
