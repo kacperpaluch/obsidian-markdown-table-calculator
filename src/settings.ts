@@ -24,9 +24,17 @@ const USAGE_EXAMPLE = `| Item | Amount |
 | Groceries | 10 |
 | Fuel | 50 |
 | Lunch | 22,32 |
-| Total | =SUM |`;
+| Total | =SUM |
+| Avg   | =AVERAGE |
+| Count | =COUNT |
+| Min   | =MIN |
+| Max   | =MAX |`;
 
-const RECALCULATED_EXAMPLE = `| Total | <span class="markdown-table-calculator-positive">82,32</span> <!-- table-calc: SUM --> |`;
+const RECALCULATED_EXAMPLE = `| Total | <span class="markdown-table-calculator-positive">82,32</span> <!-- table-calc: SUM --> |
+| Avg   | <span class="markdown-table-calculator-positive">27,44</span> <!-- table-calc: AVERAGE --> |
+| Count | 3 <!-- table-calc: COUNT --> |
+| Min   | 10 <!-- table-calc: MIN --> |
+| Max   | 50 <!-- table-calc: MAX --> |`;
 
 export class MarkdownTableCalculatorSettingTab extends PluginSettingTab {
 	plugin: MarkdownTableCalculatorPlugin;
@@ -67,7 +75,7 @@ export class MarkdownTableCalculatorSettingTab extends PluginSettingTab {
 		recalculated.createEl("code", {text: RECALCULATED_EXAMPLE});
 
 		containerEl.createEl("p", {
-			text: "The short formula sums the column it is placed in. Positive results are green, negative results are red. You can also target a column by header name, 1-based number, or spreadsheet-style letter.",
+			text: "The formula operates on the column it is placed in. Supported formulas: SUM, AVERAGE (or AVG), COUNT, MIN, MAX. Positive results are green, negative results are red. You can also target a column by header name, 1-based number, or spreadsheet-style letter.",
 		});
 	}
 
