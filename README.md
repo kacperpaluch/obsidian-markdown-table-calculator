@@ -4,29 +4,17 @@ Obsidian plugin that automatically calculates formulas in Markdown tables.
 
 ## Installation
 
-### Install with BRAT
-
-1. Install the [BRAT](https://github.com/TfTHacker/obsidian42-brat) plugin in Obsidian.
-2. Open the command palette and run **BRAT: Add a beta plugin for testing**.
-3. Enter this repository:
-
-```text
-kacperpaluch/obsidian-markdown-table-calculator
-```
-
-4. After BRAT installs the plugin, open **Settings → Community plugins**.
-5. Refresh the plugin list and enable **Markdown Table Calculator**.
-
-### Manual install
-
-1. Download `main.js`, `manifest.json`, and `styles.css` from the latest release.
-2. Copy the files into your vault:
+1. Download `main.js`, `manifest.json`, and `styles.css` from the [latest release](https://codeberg.org/kacperpaluch/obsidian-markdown-table-calculator/releases/latest).
+2. Create a folder inside your vault:
 
 ```text
 <Vault>/.obsidian/plugins/markdown-table-calculator/
 ```
 
-3. Reload Obsidian and enable **Markdown Table Calculator** in **Settings → Community plugins**.
+3. Copy the three downloaded files into that folder.
+4. Reload Obsidian and enable **Markdown Table Calculator** in **Settings → Community plugins**.
+
+> BRAT cannot be used with this plugin because it only fetches releases from GitHub, not Codeberg.
 
 ## Usage
 
