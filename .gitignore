@@ -33,6 +33,7 @@ coverage/
 # Agentbox — pliki generowane lokalnie
 .codex/
 .opencode/
+.vibe/
 .skillbox/
 .mcp.json
 opencode.json
